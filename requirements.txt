@@ -1,5 +1,5 @@
 pandas
-mlflow
+mlflow==2.2.2
 notebook
 numpy
 scikit-learn
@@ -7,7 +7,7 @@ matplotlib
 python-box==6.0.2
 pyyaml
 tqdm
-ensure
+ensure==1.0.2
 joblib
 types-pyyaml
 Flask
