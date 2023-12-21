@@ -1,5 +1,5 @@
 pandas
-mlflow ==2.2.2
+mlflow
 notebook
 numpy
 scikit-learn
@@ -13,3 +13,6 @@ types-pyyaml
 Flask
 Flask-Cors
 -e .
+mlProject
+dagshub
+setuptools

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Param/Python-Project/CampusX/GitHub/end_to_end-ML_Project_with_MLFLOW/mlruns/0/c7eddc7bb3ed42bd8b01c47c36cbadde/artifacts
+end_time: 1703143851839
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c7eddc7bb3ed42bd8b01c47c36cbadde
+run_name: victorious-kite-994
+run_uuid: c7eddc7bb3ed42bd8b01c47c36cbadde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703143849851
+status: 3
+tags: []
+user_id: Param

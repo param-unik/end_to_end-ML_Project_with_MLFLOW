@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Param/Python-Project/CampusX/GitHub/end_to_end-ML_Project_with_MLFLOW/mlruns/0/f15d6acf231642e2a5e2763d2fac553e/artifacts
+end_time: 1703143914598
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f15d6acf231642e2a5e2763d2fac553e
+run_name: calm-horse-735
+run_uuid: f15d6acf231642e2a5e2763d2fac553e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703143912575
+status: 3
+tags: []
+user_id: Param

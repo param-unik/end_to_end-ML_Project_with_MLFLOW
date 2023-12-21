@@ -2,6 +2,7 @@ from mlProject import logger
 from mlProject.pipeline.data_transformation import DataTransformationTrainingPipeline
 from mlProject.pipeline.data_validation import DataValidationTrainingPipeline
 from mlProject.pipeline.data_ingestion import DataIngestionTrainingPipeline
+from mlProject.pipeline.model_evaluation import ModelEvaluationPipeline
 from mlProject.pipeline.model_training import ModelTrainingPipeline
 
 logger.info("welcome to our custom logging")
@@ -48,6 +49,18 @@ try:
     obj = ModelTrainingPipeline()
     obj.main()
     logger.info(f">>>>> Finished {STAGE_NAME} in the ModelTrainingPipeline <<<<<<<")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+
+STAGE_NAME = "ML Model Evaluation Stage"
+
+try:
+    logger.info(f">>>> Starting {STAGE_NAME} in the ModelEvaluationPipeline <<<<<< ")
+    obj = ModelEvaluationPipeline()
+    obj.main()
+    logger.info(f">>>>> Finished {STAGE_NAME} in the ModelEvaluationPipeline <<<<<<<")
 except Exception as e:
     logger.exception(e)
     raise e

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Param/Python-Project/CampusX/GitHub/end_to_end-ML_Project_with_MLFLOW/mlruns/0/9f5163805f8d4aa5809d08bf58c312db/artifacts
+end_time: 1703143973034
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f5163805f8d4aa5809d08bf58c312db
+run_name: abrasive-wolf-811
+run_uuid: 9f5163805f8d4aa5809d08bf58c312db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703143971056
+status: 3
+tags: []
+user_id: Param

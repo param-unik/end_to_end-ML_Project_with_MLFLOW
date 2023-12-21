@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Param/Python-Project/CampusX/GitHub/end_to_end-ML_Project_with_MLFLOW/mlruns/0/d072ee8f753546c4becd05a9922842b9/artifacts
+end_time: 1703142276373
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d072ee8f753546c4becd05a9922842b9
+run_name: crawling-bee-927
+run_uuid: d072ee8f753546c4becd05a9922842b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703142274352
+status: 3
+tags: []
+user_id: Param

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Param/Python-Project/CampusX/GitHub/end_to_end-ML_Project_with_MLFLOW/mlruns/0/6f1c44d69e2646da9fcbce6dcdb5f44c/artifacts
+end_time: 1703143766301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f1c44d69e2646da9fcbce6dcdb5f44c
+run_name: useful-wren-228
+run_uuid: 6f1c44d69e2646da9fcbce6dcdb5f44c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703143764298
+status: 3
+tags: []
+user_id: Param

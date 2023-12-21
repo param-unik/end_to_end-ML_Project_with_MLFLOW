@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Param/Python-Project/CampusX/GitHub/end_to_end-ML_Project_with_MLFLOW/mlruns/0/0f653b9085ae4c6488263cfccfdca4f7/artifacts
+end_time: 1703143831045
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0f653b9085ae4c6488263cfccfdca4f7
+run_name: placid-stork-629
+run_uuid: 0f653b9085ae4c6488263cfccfdca4f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703143829016
+status: 3
+tags: []
+user_id: Param
