@@ -12,7 +12,5 @@ joblib
 types-pyyaml
 Flask
 Flask-Cors
--e .
-mlProject
 dagshub
-setuptools
+-e .
