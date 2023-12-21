@@ -1,6 +1,6 @@
 from mlProject.constants import *
 from mlProject.entity.config_entity import DataIngestionConfig, DataValidationConfig, \
-    DataTransformationConfig
+    DataTransformationConfig, ModelConfig
 from mlProject.utils.common import read_yaml, create_directories
 
 
@@ -53,3 +53,22 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
+
+    def get_model_config(self) -> ModelConfig:
+        config = self.config_filepath.model_trainer
+        params = self.params_filepath.ElasticNet
+        schema = self.schema_filepath.TARGET_COLUMNS
+
+        create_directories([config.root_dir])
+
+        model_config = ModelConfig(
+            root_dir=config.root_dir,
+            train_data_path=config.train_data_path,
+            test_data_path=config.test_data_path,
+            model_name=config.model_name,
+            alpha=params.alpha,
+            l1_ratio=params.l1_ratio,
+            target_column=schema.name
+        )
+
+        return model_config
